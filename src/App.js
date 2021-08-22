@@ -1,14 +1,14 @@
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Home, Portfolio, Contact, Resume } from './components/pages';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/portfolio" element={<Portfolio />} />
-      <Route path="/contact" element={<Contact />} />
-      <Route path="/resume" element={<Resume />} />
-    </Routes>
+    <Router>
+      <Route exact path="/" element={<Home />} />
+      <Route exact path="/portfolio" element={<Portfolio />} />
+      <Route exact path="/contact" element={<Contact />} />
+      <Route exact path="/resume" element={<Resume />} />
+    </Router>
   );
 }
 
