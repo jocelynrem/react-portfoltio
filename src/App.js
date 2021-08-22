@@ -4,10 +4,10 @@ import { Home, Portfolio, Contact, Resume } from './components/pages';
 function App() {
   return (
     <Router>
-      <Route exact path="/" element={<Home />} />
-      <Route exact path="/portfolio" element={<Portfolio />} />
-      <Route exact path="/contact" element={<Contact />} />
-      <Route exact path="/resume" element={<Resume />} />
+      <Route exact path="/"><Home /></Route>
+      <Route exact path="/portfolio"><Portfolio /></Route>
+      <Route exact path="/contact"><Contact /></Route>
+      <Route exact path="/resume"><Resume /></Route>
     </Router>
   );
 }
