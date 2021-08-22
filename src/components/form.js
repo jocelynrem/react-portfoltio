@@ -15,9 +15,9 @@ export default function Form() {
 
         if (inputType === 'email') {
             setEmail(inputValue);
-          } else if (inputType) {
+          } else if (inputType === 'name') {
             setName(inputValue);
-          } else {
+          } else if (inputType === 'message'){
             setMessage(inputValue);
           }
     }
@@ -39,7 +39,6 @@ export default function Form() {
             <div className="bg-gray-100">
                 <div className="p-5 my-5 md:grid md:grid-cols-6 md:gap-6 container justify-center mx-auto">
                     <div className="md:col-span-1"></div>
-
                     <div className="mt-5 md:mt-0 md:col-span-4">
                         <form name="contact" method="POST" data-netlify="true">
                             <div className="shadow sm:rounded-md sm:overflow-hidden">
@@ -88,7 +87,6 @@ export default function Form() {
                                             <label htmlFor="message" className="block text-sm font-medium text-gray-700">
                                                 Message
                                             </label>
-                                            <div className="mt-1">
                                                 <textarea
                                                     value={message}
                                                     onChange={handleInputChange}
@@ -96,8 +94,8 @@ export default function Form() {
                                                     rows={3}
                                                     className="shadow-sm focus:ring-rem-tan focus:border-rem-tan mt-1 block w-full sm:text-sm border border-gray-300 rounded-md"
                                                     placeholder="Dear Jocelyn, you are awesome."
+                                                    autoComplete=""
                                                 />
-                                            </div>
                                         </div>
                                     </div>
 
