@@ -10,10 +10,10 @@ export default function Form() {
                     <div className="mt-5 md:mt-0 md:col-span-4">
                         <form action="#" method="POST">
                             <div className="shadow sm:rounded-md sm:overflow-hidden">
-                                    <h1 className="text-2xl bg-rem-tan p-2 text-center tracking-tight text-gray-800 font-extrabold sm:text-2xl md:text-3xl">
+                                    <div className="text-2xl bg-rem-tan p-2 text-center tracking-tight text-gray-800 font-extrabold sm:text-2xl md:text-3xl">
                                         <span className="inline-block px-5 py-2 xl:inline">jocelynrem@gmail.com</span>{' '}
                                         <span className="inline-block px-5 py-2 xl:inline">910-987-6202</span>
-                                    </h1>
+                                    </div>
                                 <div className="px-4 py-5 bg-white space-y-6 sm:p-6">
 
                                     <div className="grid grid-cols-2 gap-6">

@@ -17,10 +17,10 @@ const Header = (props) => {
                     <Nav />
                     <main className="mx-auto max-w-7xl px-6 sm:mt-6 sm:px-6 md:my-12 lg:my-15 lg:px-10">
                         <div className="sm:text-center lg:text-left">
-                            <h1 className="text-4xl tracking-tight text-gray-900 font-extrabold sm:text-5xl md:text-6xl">
+                            <div className="text-4xl tracking-tight text-gray-900 font-extrabold sm:text-5xl md:text-6xl">
                                 <span className={`inline-block ${props.colorOne} xl:inline`}>{props.titleOne}</span>{' '}
                                 <span className={`inline-block ${props.colorTwo} xl:inline`}>{props.titleTwo}</span>
-                            </h1>
+                            </div>
                             <p className="mt-3 text-base text-gray-500 pr-5 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-auto">
                                 <div className="md:mt-8">
                                     {props.quote}
