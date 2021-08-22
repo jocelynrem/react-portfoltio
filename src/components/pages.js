@@ -29,8 +29,8 @@ export function Home() {
             <div className="p-5 m-5 md:flex container rounded-md mx-auto bg-rem-tan">
                 <img src={avatar} className="rounded-full max-w-60 max-h-60 md:float-right" alt="cartoon avatar of Jocelyn" />
                 <div className="flex-col">
-                    <p className=" pt-10 pl-5 font-thin text-3xl">| Photoshop | Javascript | HTML5 | CSS | React |  Bootstrap | Tailwind | Adobe XD |</p>
-                    <p className="pt-10 pl-5 text-2xl font-extralight">"Jocelyn is knowledgeable, articulate, and a pleasure to work with. She never hesitates to be the leader among her peers."</p>
+                    <p className="pt-5 pl-5 text-2xl font-light">"Jocelyn is knowledgeable, articulate, and a pleasure to work with. She never hesitates to be the leader among her peers."</p>
+                    <p className="pt-5 pl-5 text-3xl font-extralight">Web developer leveraging a background in education to provide a unique perspective on how end-users interact with websites and software platforms.</p>
                 </div>
 
             </div>
@@ -153,9 +153,7 @@ export function Resume() {
             <div className="p-5 m-5 md:flex container rounded-md mx-auto bg-rem-tan">
             <a href="https://docs.google.com/document/d/1ISDJDI6HHXNktBTEYzDdGsEXPZqZwd_1rlvw95BCUHc/edit?usp=sharing" target="_blank" rel="noreferrer"><img src={resume} className="w-screen object-cover hover:scale-105 transition-all transform duration-400 rounded-md max-w-60 max-h-60 md:float-right" alt="resume" /></a>
                 <div className="flex-col">
-                    <p className=" pt-2 pl-5 font-thin text-3xl">SKILLS: Photoshop | Javascript | HTML5 | CSS | React |  Bootstrap | Tailwind | Adobe XD | MySQL | MongoDB | GraphQL</p>
-                    <p className="pt-5 pl-5 text-xl font-light">"Jocelyn is knowledgeable, articulate, and a pleasure to work with. She never hesitates to be the leader among her peers."</p>
-                </div>
+                    <p className=" pt-2 pl-5 font-thin text-3xl">SKILLS: Photoshop | Javascript | HTML5 | CSS | React |  Bootstrap | Tailwind | Adobe XD | MySQL | MongoDB | GraphQL</p>                </div>
 
             </div>
 

@@ -11,8 +11,8 @@
         text-sm
         font-medium
         rounded-md
-        bg-rem-blue
-        hover:bg-rem-teal
+        bg-gray-700 
+        hover:bg-rem-blue
         text-white
         focus:outline-none
         focus:ring-2
