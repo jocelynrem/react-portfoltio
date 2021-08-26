@@ -72,7 +72,7 @@ export function Portfolio() {
                         alt="preview of pour decisions app"
                         website="https://thompsonel11.github.io/Project_1/"
                         title="Pour Decisions"
-                        githubRepo="https://github.com/thompsonel11/Project_1"
+                        githubRepo="https://github.com/jocelynrem/Project_1"
                         text1="Role: UI/UX lead, API, & Javascript"
                     />
                     <WebPortfolio
