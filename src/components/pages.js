@@ -14,7 +14,7 @@ import codeQuiz from './images/web/code-quiz.png'
 import fitnessTracker from './images/web/fitness-tracker.png'
 import notetaker from './images/web/Notetaker.png'
 import pourDecisions from './images/web/pour-decisions.png'
-import weather from './images/web/weather-dashboard.png'
+import bookworm from './images/web/bookworm.png'
 
 
 export function Home() {
@@ -60,6 +60,14 @@ export function Portfolio() {
                 <h1 className="font-thin text-4xl ml-5 mt-5">Developer Portfolio</h1>
                 <div className="md: grid p-2 lg:grid-cols-3 md:grid-cols-1 mx-auto place-items-center">
                     <WebPortfolio
+                        preview={bookworm}
+                        alt="preview of bookworm app"
+                        website="https://book-worm-clm.herokuapp.com/"
+                        title="Bookworm"
+                        githubRepo="https://github.com/santipalacios2002/project-3"
+                        text1="Role: UI/UX lead, logo design, React programming"
+                    />
+                    <WebPortfolio
                         preview={beSeated}
                         alt="preview of be seated app"
                         website="https://beseated.herokuapp.com/"
@@ -91,14 +99,6 @@ export function Portfolio() {
                         title="Code Quiz"
                         githubRepo="https://github.com/jocelynrem/Code-Quiz"
                         text1="Role: UI/UX, Javascript"
-                    />
-                    <WebPortfolio
-                        preview={weather}
-                        alt="preview of weather app"
-                        website="https://jocelynrem.github.io/weather-dahboard/"
-                        title="Weather Dashboard"
-                        githubRepo="https://github.com/jocelynrem/weather-dahboard"
-                        text1="Role: Design, API, & search functionality"
                     />
                     <WebPortfolio
                         preview={notetaker}
@@ -151,7 +151,7 @@ export function Resume() {
                 quote='"She is very easy to work with and always adds a lot of fun to team projects. I would highly recommend Jocelyn to anyone in need of a full stack developer."'
             />
             <div className="p-5 m-5 md:flex container rounded-md mx-auto bg-rem-tan">
-            <a href="https://docs.google.com/document/d/1ISDJDI6HHXNktBTEYzDdGsEXPZqZwd_1rlvw95BCUHc/edit?usp=sharing" target="_blank" rel="noreferrer"><img src={resume} className="w-screen object-cover hover:scale-105 transition-all transform duration-400 rounded-md max-w-60 max-h-60 md:float-right" alt="resume" /></a>
+                <a href="https://docs.google.com/document/d/1ISDJDI6HHXNktBTEYzDdGsEXPZqZwd_1rlvw95BCUHc/edit?usp=sharing" target="_blank" rel="noreferrer"><img src={resume} className="w-screen object-cover hover:scale-105 transition-all transform duration-400 rounded-md max-w-60 max-h-60 md:float-right" alt="resume" /></a>
                 <div className="flex-col">
                     <h1 className=" pt-2 pl-5 text-3xl">SKILLS:</h1>
                     <p className=" pt-2 pl-5 font-thin text-3xl">| Photoshop | Javascript | HTML5 | CSS | React |  Bootstrap | Tailwind | Adobe XD | MySQL | MongoDB | GraphQL</p>
