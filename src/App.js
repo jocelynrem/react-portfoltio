@@ -1,5 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
-import { Home, Portfolio, Contact, Resume } from './components/pages';
+import { Home, Portfolio, Resume } from './components/pages';
 
 function App() {
   return (
