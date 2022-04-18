@@ -15,6 +15,7 @@ import fitnessTracker from './images/web/fitness-tracker.png'
 import notetaker from './images/web/Notetaker.png'
 import pourDecisions from './images/web/pour-decisions.png'
 import bookworm from './images/web/bookworm.png'
+import traffic from './images/Afternoon-map.png'
 
 
 export function Home() {
@@ -43,6 +44,23 @@ function PrintDesigns(props) {
     return (
         <div className="print-design mb-20 md:mb-1 md:col-span-1">
             <img alt={props.alt} src={props.src} />
+        </div>
+    );
+}
+
+function MotionDesigns(props) {
+    const { preview, alt, website, text1 } = props;
+
+    return (
+        <div className="mt-5 mx-5 w-72">
+            <div className="p-3 justify-items-center bg-rem-gray rounded-xl shadow-sm">
+                <a href={website} target="_blank" rel="noreferrer">
+                    <img className="w-64 h-40 object-cover rounded-t-md hover:scale-105 transition-all transform duration-400" src={preview} alt={alt} />
+                    <div className="mt-2">
+                        <p className="text-sm mt-3 pb-3 text-gray-700">{text1}</p>
+                    </div>
+                </a>
+            </div>
         </div>
     );
 }
@@ -112,6 +130,17 @@ export function Portfolio() {
                 </div>
             </div>
             <div className="my-3 container mx-auto">
+                <h1 className="font-thin text-4xl ml-5 mt-5">Motion Portfolio</h1>
+                <div className="md: grid p-2 lg:grid-cols-3 md:grid-cols-1 mx-auto place-items-center">
+                    <MotionDesigns
+                        preview={traffic}
+                        alt="traffic direction map"
+                        website="https://youtu.be/VNO061c9utA"
+                        text1="Created using Illustrator, After Effects, & Premier Pro"
+                    />
+                </div>
+            </div>
+            <div className="my-3 container mx-auto">
                 <h1 className="font-thin text-4xl ml-5 mt-5">Print Portfolio</h1>
                 <div className="grid md:pb-16 p-2 md:grid-cols-4 md:justify-evenly mx-auto place-items-center">
                     <PrintDesigns alt="first friday logo" src={firstFriday} />
@@ -151,7 +180,7 @@ export function Resume() {
                 quote='"She is very easy to work with and always adds a lot of fun to team projects. I would highly recommend Jocelyn to anyone in need of a full stack developer."'
             />
             <div className="p-5 m-5 md:flex container rounded-md mx-auto bg-rem-tan">
-                <a href="https://docs.google.com/document/d/1ISDJDI6HHXNktBTEYzDdGsEXPZqZwd_1rlvw95BCUHc/edit?usp=sharing" target="_blank" rel="noreferrer"><img src={resume} className="w-screen object-cover hover:scale-105 transition-all transform duration-400 rounded-md max-w-60 max-h-60 md:float-right" alt="resume" /></a>
+                <a href="https://drive.google.com/file/d/1piJC3by8EQYZoWRueZG6TMRDpIl5P7cg/view?usp=sharing" target="_blank" rel="noreferrer"><img src={resume} className="w-screen object-cover hover:scale-105 transition-all transform duration-400 rounded-md max-w-60 max-h-60 md:float-right" alt="resume" /></a>
                 <div className="flex-col">
                     <h1 className=" pt-2 pl-5 text-3xl">SKILLS:</h1>
                     <p className=" pt-2 pl-5 font-thin text-3xl">| Photoshop | Javascript | HTML5 | CSS | React |  Bootstrap | Tailwind | Adobe XD | MySQL | MongoDB | GraphQL</p>
