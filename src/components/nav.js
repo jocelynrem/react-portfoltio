@@ -4,9 +4,9 @@ import { MenuIcon } from '@heroicons/react/outline'
 
 const navigation = [
     { name: 'About', href: '/' },
-    { name: 'Portfolio', href: 'portfolio' },
+    { name: 'Portfolio', href: 'jocelynrem/portfolio' },
     // { name: 'Contact', href: 'contact' },
-    { name: 'Resume', href: 'resume' },
+    { name: 'Resume', href: 'jocelynrem/resume' },
 ]
 
 export default function Nav() {

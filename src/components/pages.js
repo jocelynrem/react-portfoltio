@@ -2,7 +2,7 @@ import React from 'react'
 import Header from './header';
 // import Form from './form';
 import Footer from './footer';
-import avatar from './images/IMG_7504.JPG'
+import avatar from './images/IMG_7518.JPG'
 import firstFriday from './images/FIRSTFRIDAY2.png'
 import bluegrass from './images/SunriseBluegrass.png'
 import chamber from './images/chamber-ad.png'
