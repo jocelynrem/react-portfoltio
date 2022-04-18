@@ -154,21 +154,21 @@ export function Portfolio() {
     )
 }
 
-export function Contact() {
-    return (
-        <div className="flex flex-col h-screen justify-between">
+// export function Contact() {
+//     return (
+//         <div className="flex flex-col h-screen justify-between">
 
-            <Header
-                titleOne="Contact"
-                titleTwo="Jocelyn"
-                colorTwo="text-rem-teal"
-                quote='"She always asks the right questions, works hard learning new languages and frameworks, and is an amazing team player with other students."'
-            />
-            <Form />
-            <Footer />
-        </div>
-    )
-}
+//             <Header
+//                 titleOne="Contact"
+//                 titleTwo="Jocelyn"
+//                 colorTwo="text-rem-teal"
+//                 quote='"She always asks the right questions, works hard learning new languages and frameworks, and is an amazing team player with other students."'
+//             />
+//             <Form />
+//             <Footer />
+//         </div>
+//     )
+// }
 
 export function Resume() {
     return (
