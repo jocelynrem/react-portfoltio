@@ -180,7 +180,7 @@ export function Resume() {
                 quote='"She is very easy to work with and always adds a lot of fun to team projects. I would highly recommend Jocelyn to anyone in need of a full stack developer."'
             />
             <div className="p-5 m-5 md:flex container rounded-md mx-auto bg-rem-tan">
-                <a href="https://drive.google.com/file/d/1piJC3by8EQYZoWRueZG6TMRDpIl5P7cg/view?usp=sharing" target="_blank" rel="noreferrer"><img src={resume} className="w-screen object-cover hover:scale-105 transition-all transform duration-400 rounded-md max-w-60 max-h-60 md:float-right" alt="resume" /></a>
+                <a href="https://drive.google.com/file/d/1OeCyICt424v7mSiFgoF4UjmiCOaBngeA/view?usp=sharing" target="_blank" rel="noreferrer"><img src={resume} className="w-screen object-cover hover:scale-105 transition-all transform duration-400 rounded-md max-w-60 max-h-60 md:float-right" alt="resume" /></a>
                 <div className="flex-col">
                     <h1 className=" pt-2 pl-5 text-3xl">SKILLS:</h1>
                     <p className=" pt-2 pl-5 font-thin text-3xl">| Photoshop | Javascript | HTML5 | CSS | React |  Bootstrap | Tailwind | Adobe XD | MySQL | MongoDB | GraphQL</p>
