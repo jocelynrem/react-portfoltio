@@ -9,13 +9,14 @@ import chamber from './images/chamber-ad.png'
 import murphy from './images/Murphy-Fam-Xmas.png'
 import resume from './images/resume.png'
 import WebPortfolio from './portfolio';
-import beSeated from './images/web/be-seated.png'
 import codeQuiz from './images/web/code-quiz.png'
-import fitnessTracker from './images/web/fitness-tracker.png'
-import notetaker from './images/web/Notetaker.png'
 import pourDecisions from './images/web/pour-decisions.png'
-import bookworm from './images/web/bookworm.png'
 import traffic from './images/Afternoon-map.png'
+import caseStudy from './images/web/case-study.png'
+// import beSeated from './images/web/be-seated.png'
+// import fitnessTracker from './images/web/fitness-tracker.png'
+// import notetaker from './images/web/Notetaker.png'
+// import bookworm from './images/web/bookworm.png'
 
 
 export function Home() {
@@ -77,21 +78,29 @@ export function Portfolio() {
             <div className="my-3 container mx-auto">
                 <h1 className="font-thin text-4xl ml-5 mt-5">Developer Portfolio</h1>
                 <div className="md: grid p-2 lg:grid-cols-3 md:grid-cols-1 mx-auto place-items-center">
-                    <WebPortfolio
+                    {/* <WebPortfolio
                         preview={bookworm}
                         alt="preview of bookworm app"
                         website="https://book-worm-clm.herokuapp.com/"
                         title="Bookworm"
                         githubRepo="https://github.com/santipalacios2002/project-3"
                         text1="Role: UI/UX lead, logo design, React programming"
-                    />
-                    <WebPortfolio
+                    /> */}
+                    {/* <WebPortfolio
                         preview={beSeated}
                         alt="preview of be seated app"
                         website="https://beseated.herokuapp.com/"
                         title="Be|Seated"
                         githubRepo="https://github.com/jocelynrem/project-2"
                         text1="Role: UI/UX lead, logo design"
+                    /> */}
+                    <WebPortfolio
+                        preview={caseStudy}
+                        alt="preview of case study page"
+                        website="https://uxfol.io/jocelynrem"
+                        title="UX Case Study"
+                        githubRepo="https://github.com/jocelynrem/"
+                        text1="Role: UI/UX lead"
                     />
                     <WebPortfolio
                         preview={pourDecisions}
@@ -101,14 +110,14 @@ export function Portfolio() {
                         githubRepo="https://github.com/jocelynrem/Project_1"
                         text1="Role: UI/UX lead, API, & Javascript"
                     />
-                    <WebPortfolio
+                    {/* <WebPortfolio
                         preview={fitnessTracker}
                         alt="preview of fitness tracker app with graph results"
                         website="https://workout-tracker-jremington.herokuapp.com/stats"
                         title="Fitness Tracker"
                         githubRepo="https://github.com/jocelynrem/workoutTracker"
                         text1="Role: Backend using MongoDB"
-                    />
+                    /> */}
 
                     <WebPortfolio
                         preview={codeQuiz}
@@ -118,14 +127,14 @@ export function Portfolio() {
                         githubRepo="https://github.com/jocelynrem/Code-Quiz"
                         text1="Role: UI/UX, Javascript"
                     />
-                    <WebPortfolio
+                    {/* <WebPortfolio
                         preview={notetaker}
                         alt="preview of notetaker app"
                         website="https://calm-fortress-51934.herokuapp.com/notes"
                         title="Notetaker"
                         githubRepo="https://github.com/jocelynrem/note_taker"
                         text1="Role: Backend- Express.js & JSON files"
-                    />
+                    /> */}
 
                 </div>
             </div>
