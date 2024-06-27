@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Redirecting...</title>
-        <script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <script>
       // Preserves the path and lets React Router handle the routing
       var redirectPath = window.location.pathname;
       var redirectTo = '/' + (redirectPath.startsWith('/') ? redirectPath.substr(1) : redirectPath);
       window.location.replace(redirectTo);
-        </script>
-    </head>
-    <body></body>
+    </script>
+  </head>
+  <body></body>
 </html>
