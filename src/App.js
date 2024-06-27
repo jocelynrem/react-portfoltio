@@ -1,7 +1,7 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home';
-import Portfolio from './components/Portfolio';
+import Portfolio from './components/portfolio';
 import Resume from './components/Resume';
 
 function App() {
