@@ -1,3 +1,4 @@
+//src/components/header.js
 import React, { useState } from 'react'
 import Nav from './nav'
 import headerImage from './images/80-NeutralBoho-Paper11.jpg'

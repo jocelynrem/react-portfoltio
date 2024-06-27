@@ -1,4 +1,4 @@
-
+//src/components/print.js
 
 export default function printDesigns(props) {
     const { src, alt } = props
