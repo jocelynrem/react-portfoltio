@@ -1,4 +1,4 @@
-//src/components/portfolio.js
+//src/components/WebPortfolio.js
 
 function WebPortfolio(props) {
   const { preview, alt, website, title, githubRepo, text1 } = props;
