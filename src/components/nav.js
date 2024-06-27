@@ -1,3 +1,4 @@
+//src/components/nav.js
 import { Fragment } from 'react';
 import { Popover, Transition } from '@headlessui/react';
 import { MenuIcon } from '@heroicons/react/outline';
