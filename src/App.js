@@ -1,3 +1,5 @@
+//src/App.js
+
 import { Routes, Route } from 'react-router-dom';
 import { Home, Portfolio, Resume } from './components/pages';
 

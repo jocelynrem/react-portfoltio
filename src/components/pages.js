@@ -1,6 +1,7 @@
+//src/components/pages.js
+
 import React from 'react'
 import Header from './header';
-// import Form from './form';
 import Footer from './footer';
 import avatar from './images/IMG_7518.JPG'
 import firstFriday from './images/FIRSTFRIDAY2.png'
@@ -13,10 +14,7 @@ import codeQuiz from './images/web/code-quiz.png'
 import pourDecisions from './images/web/pour-decisions.png'
 import traffic from './images/Afternoon-map.png'
 import caseStudy from './images/web/case-study.png'
-// import beSeated from './images/web/be-seated.png'
-// import fitnessTracker from './images/web/fitness-tracker.png'
-// import notetaker from './images/web/Notetaker.png'
-// import bookworm from './images/web/bookworm.png'
+
 
 
 export function Home() {
@@ -78,22 +76,6 @@ export function Portfolio() {
             <div className="my-3 container mx-auto">
                 <h1 className="font-thin text-4xl ml-5 mt-5">Developer Portfolio</h1>
                 <div className="md: grid p-2 lg:grid-cols-3 md:grid-cols-1 mx-auto place-items-center">
-                    {/* <WebPortfolio
-                        preview={bookworm}
-                        alt="preview of bookworm app"
-                        website="https://book-worm-clm.herokuapp.com/"
-                        title="Bookworm"
-                        githubRepo="https://github.com/santipalacios2002/project-3"
-                        text1="Role: UI/UX lead, logo design, React programming"
-                    /> */}
-                    {/* <WebPortfolio
-                        preview={beSeated}
-                        alt="preview of be seated app"
-                        website="https://beseated.herokuapp.com/"
-                        title="Be|Seated"
-                        githubRepo="https://github.com/jocelynrem/project-2"
-                        text1="Role: UI/UX lead, logo design"
-                    /> */}
                     <WebPortfolio
                         preview={caseStudy}
                         alt="preview of case study page"
@@ -110,14 +92,6 @@ export function Portfolio() {
                         githubRepo="https://github.com/jocelynrem/Project_1"
                         text1="Role: UI/UX lead, API, & Javascript"
                     />
-                    {/* <WebPortfolio
-                        preview={fitnessTracker}
-                        alt="preview of fitness tracker app with graph results"
-                        website="https://workout-tracker-jremington.herokuapp.com/stats"
-                        title="Fitness Tracker"
-                        githubRepo="https://github.com/jocelynrem/workoutTracker"
-                        text1="Role: Backend using MongoDB"
-                    /> */}
 
                     <WebPortfolio
                         preview={codeQuiz}
@@ -127,14 +101,6 @@ export function Portfolio() {
                         githubRepo="https://github.com/jocelynrem/Code-Quiz"
                         text1="Role: UI/UX, Javascript"
                     />
-                    {/* <WebPortfolio
-                        preview={notetaker}
-                        alt="preview of notetaker app"
-                        website="https://calm-fortress-51934.herokuapp.com/notes"
-                        title="Notetaker"
-                        githubRepo="https://github.com/jocelynrem/note_taker"
-                        text1="Role: Backend- Express.js & JSON files"
-                    /> */}
 
                 </div>
             </div>
@@ -162,22 +128,6 @@ export function Portfolio() {
         </div>
     )
 }
-
-// export function Contact() {
-//     return (
-//         <div className="flex flex-col h-screen justify-between">
-
-//             <Header
-//                 titleOne="Contact"
-//                 titleTwo="Jocelyn"
-//                 colorTwo="text-rem-teal"
-//                 quote='"She always asks the right questions, works hard learning new languages and frameworks, and is an amazing team player with other students."'
-//             />
-//             <Form />
-//             <Footer />
-//         </div>
-//     )
-// }
 
 export function Resume() {
     return (
