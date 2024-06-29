@@ -53,7 +53,7 @@ const Portfolio = () => {
                         website="https://uxfol.io/jocelynrem"
                         title="UX Case Study"
                         githubRepo="https://github.com/jocelynrem/"
-                        text1="Role: UI/UX lead"
+                        text1="Role: UI/UX lead, Frontend Developer"
                     />
                     <WebPortfolio
                         preview={pourDecisions}
@@ -61,41 +61,41 @@ const Portfolio = () => {
                         website="https://thompsonel11.github.io/Project_1/"
                         title="Pour Decisions"
                         githubRepo="https://github.com/jocelynrem/Project_1"
-                        text1="Role: UI/UX lead, API, & Javascript"
+                        text1="Role: UI/UX lead, Full Stack Developer"
                     />
                     <WebPortfolio
                         preview={codeQuiz}
                         alt="preview of code quiz app"
                         website="https://jocelynrem.github.io/Code-Quiz/"
-                        title="Code Quiz"
+                        title="President Quiz"
                         githubRepo="https://github.com/jocelynrem/Code-Quiz"
-                        text1="Role: UI/UX, Javascript"
+                        text1="Role: UI/UX, Full Stack Developer
                     />
                 </div>
             </div>
             <div className="my-3 container mx-auto">
-                <h1 className="font-thin text-4xl ml-5 mt-5">Motion Portfolio</h1>
-                <div className="md: grid p-2 lg:grid-cols-3 md:grid-cols-1 mx-auto place-items-center">
-                    <MotionDesigns
-                        preview={traffic}
-                        alt="traffic direction map"
-                        website="https://youtu.be/VNO061c9utA"
-                        text1="Created using Illustrator, After Effects, & Premier Pro"
-                    />
+                    <h1 className="font-thin text-4xl ml-5 mt-5">Motion Portfolio</h1>
+                    <div className="md: grid p-2 lg:grid-cols-3 md:grid-cols-1 mx-auto place-items-center">
+                        <MotionDesigns
+                            preview={traffic}
+                            alt="traffic direction map"
+                            website="https://youtu.be/VNO061c9utA"
+                            text1="Created using Illustrator, After Effects, & Premier Pro"
+                        />
+                    </div>
                 </div>
-            </div>
-            <div className="my-3 container mx-auto">
-                <h1 className="font-thin text-4xl ml-5 mt-5">Print Portfolio</h1>
-                <div className="grid md:pb-16 p-2 md:grid-cols-4 md:justify-evenly mx-auto place-items-center">
-                    <PrintDesigns alt="first friday logo" src={firstFriday} />
-                    <PrintDesigns alt="poster for bluegrass concert" src={bluegrass} />
-                    <PrintDesigns alt="ad for charter school" src={chamber} />
-                    <PrintDesigns alt="poster for Murphy Family Christmas concert" src={murphy} />
+                <div className="my-3 container mx-auto">
+                    <h1 className="font-thin text-4xl ml-5 mt-5">Print Portfolio</h1>
+                    <div className="grid md:pb-16 p-2 md:grid-cols-4 md:justify-evenly mx-auto place-items-center">
+                        <PrintDesigns alt="first friday logo" src={firstFriday} />
+                        <PrintDesigns alt="poster for bluegrass concert" src={bluegrass} />
+                        <PrintDesigns alt="ad for charter school" src={chamber} />
+                        <PrintDesigns alt="poster for Murphy Family Christmas concert" src={murphy} />
+                    </div>
                 </div>
+                <Footer />
             </div>
-            <Footer />
-        </div>
-    );
+            );
 }
 
-export default Portfolio;
+            export default Portfolio;
