@@ -48,7 +48,7 @@ const Banner = () => {
                 </p>
                 <a
                     href="https://booknav-sepia.vercel.app/"
-                    className="flex-none rounded-full bg-pink-800 px-3.5 py-1 text-sm font-medium text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
+                    className="flex-none rounded-full bg-pink-800 px-3.5 py-1 text-sm font-medium text-white shadow-sm hover:bg-pink-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
                 >
                     Check it out <span aria-hidden="true">&rarr;</span>
                 </a>
