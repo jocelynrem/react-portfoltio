@@ -69,33 +69,33 @@ const Portfolio = () => {
                         website="https://jocelynrem.github.io/Code-Quiz/"
                         title="President Quiz"
                         githubRepo="https://github.com/jocelynrem/Code-Quiz"
-                        text1="Role: UI/UX, Full Stack Developer
+                        text1="Role: UI/UX, Full Stack Developer"
                     />
                 </div>
             </div>
             <div className="my-3 container mx-auto">
-                    <h1 className="font-thin text-4xl ml-5 mt-5">Motion Portfolio</h1>
-                    <div className="md: grid p-2 lg:grid-cols-3 md:grid-cols-1 mx-auto place-items-center">
-                        <MotionDesigns
-                            preview={traffic}
-                            alt="traffic direction map"
-                            website="https://youtu.be/VNO061c9utA"
-                            text1="Created using Illustrator, After Effects, & Premier Pro"
-                        />
-                    </div>
+                <h1 className="font-thin text-4xl ml-5 mt-5">Motion Portfolio</h1>
+                <div className="md: grid p-2 lg:grid-cols-3 md:grid-cols-1 mx-auto place-items-center">
+                    <MotionDesigns
+                        preview={traffic}
+                        alt="traffic direction map"
+                        website="https://youtu.be/VNO061c9utA"
+                        text1="Created using Illustrator, After Effects, & Premier Pro"
+                    />
                 </div>
-                <div className="my-3 container mx-auto">
-                    <h1 className="font-thin text-4xl ml-5 mt-5">Print Portfolio</h1>
-                    <div className="grid md:pb-16 p-2 md:grid-cols-4 md:justify-evenly mx-auto place-items-center">
-                        <PrintDesigns alt="first friday logo" src={firstFriday} />
-                        <PrintDesigns alt="poster for bluegrass concert" src={bluegrass} />
-                        <PrintDesigns alt="ad for charter school" src={chamber} />
-                        <PrintDesigns alt="poster for Murphy Family Christmas concert" src={murphy} />
-                    </div>
-                </div>
-                <Footer />
             </div>
-            );
+            <div className="my-3 container mx-auto">
+                <h1 className="font-thin text-4xl ml-5 mt-5">Print Portfolio</h1>
+                <div className="grid md:pb-16 p-2 md:grid-cols-4 md:justify-evenly mx-auto place-items-center">
+                    <PrintDesigns alt="first friday logo" src={firstFriday} />
+                    <PrintDesigns alt="poster for bluegrass concert" src={bluegrass} />
+                    <PrintDesigns alt="ad for charter school" src={chamber} />
+                    <PrintDesigns alt="poster for Murphy Family Christmas concert" src={murphy} />
+                </div>
+            </div>
+            <Footer />
+        </div>
+    );
 }
 
-            export default Portfolio;
+export default Portfolio;
