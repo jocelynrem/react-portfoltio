@@ -50,7 +50,7 @@ const Banner = () => {
                     href="https://www.librarynav.com/"
                     className="flex-none rounded-full bg-pink-800 px-3.5 py-1 text-sm font-medium text-white shadow-sm hover:bg-pink-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900"
                 >
-                    Check it out <span aria-hidden="true">&rarr;</span>
+                    Check out LibraryNav <span aria-hidden="true">&rarr;</span>
                 </a>
             </div>
             <div className="flex flex-1 justify-end">
