@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d2a02fe4.css",
+    "main.js": "/static/js/main.94e9f8be.js",
+    "static/media/pour-decisions.png": "/static/media/pour-decisions.eeb3306710944311ebeb.png",
+    "static/media/FIRSTFRIDAY2.png": "/static/media/FIRSTFRIDAY2.c49bba2466b85dc1cfb2.png",
+    "static/media/80-NeutralBoho-Paper11.jpg": "/static/media/80-NeutralBoho-Paper11.343df43b62b824ac9b1b.jpg",
+    "static/media/Afternoon-map.png": "/static/media/Afternoon-map.23041cb3f5993d97ccbc.png",
+    "static/media/resume.png": "/static/media/resume.affc3b3aece06a0b91a5.png",
+    "static/media/SunriseBluegrass.png": "/static/media/SunriseBluegrass.97b0f3d1adf1c1b8afe2.png",
+    "static/media/Murphy-Fam-Xmas.png": "/static/media/Murphy-Fam-Xmas.5a4c6df9ad81eb3a191e.png",
+    "static/media/IMG_7518.JPG": "/static/media/IMG_7518.a0a5bde6fede642185db.JPG",
+    "static/media/chamber-ad.png": "/static/media/chamber-ad.9b3431500c50eae8db88.png",
+    "static/media/case-study.png": "/static/media/case-study.e8e7b781b1cc4e046d4f.png",
+    "static/media/code-quiz.png": "/static/media/code-quiz.03fcce23159855a52419.png",
+    "index.html": "/index.html",
+    "main.d2a02fe4.css.map": "/static/css/main.d2a02fe4.css.map",
+    "main.94e9f8be.js.map": "/static/js/main.94e9f8be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2a02fe4.css",
+    "static/js/main.94e9f8be.js"
+  ]
+}
